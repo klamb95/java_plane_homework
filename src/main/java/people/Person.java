@@ -15,4 +15,7 @@ public abstract class Person {
     }
 
 
+    public Rank getRank(){
+        return rank;
+    };
 }

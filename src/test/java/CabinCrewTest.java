@@ -18,4 +18,9 @@ public class CabinCrewTest {
     public void canGetName(){
         assertEquals("Kieran", cabinCrew.getName());
     }
+
+    @Test
+    public void canGetRank(){
+        assertEquals(Rank.FLIGHT_ATTENDANT, cabinCrew.getRank());
+    }
 }
