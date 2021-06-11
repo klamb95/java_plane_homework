@@ -7,6 +7,9 @@ public class CabinCrew extends Person {
         super(name, rank);
     }
 
+    public String giveTakeOffInstructions(){
+        return "Please leave your try in the upright position";
+    }
 
 
 }

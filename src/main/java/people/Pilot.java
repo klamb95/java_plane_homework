@@ -12,4 +12,8 @@ public class Pilot extends Person{
     public String getPilotLicense() {
         return pilotLicense;
     }
+
+    public String flyPlane(){
+        return "I am flying the plane";
+    }
 }

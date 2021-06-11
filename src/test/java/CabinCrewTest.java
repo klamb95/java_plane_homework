@@ -23,4 +23,9 @@ public class CabinCrewTest {
     public void canGetRank(){
         assertEquals(Rank.FLIGHT_ATTENDANT, cabinCrew.getRank());
     }
+
+    @Test
+    public void canGiveInstructions(){
+        assertEquals("Please leave your try in the upright position", cabinCrew.giveTakeOffInstructions());
+    }
 }
